@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0B0B0E;
+    font-family: Inter;
+}
+
+.FullWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 112px;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    padding: 14px 200px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #003004;
+}
+
+.headerNavWrapper {
+    display: flex;
+    max-width: 1040px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.herderUl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+}
+
+.headerLiLink {
+    color: #FFF;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.headerLiLink:hover {
+    color: #FF371A;
+}
+
+.mainFooterSeparatorWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 112px;
+}
+
+.heroWrapper {
+    display: flex;
+    max-width: 1040px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroContentWrapper {
+    display: flex;
+    max-width: 564px;
+    width: 100vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 600;
+    align-self: stretch;
+}
+
+.heroSupporting {
+    color: #7A7A7A;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.heroButtonsWrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.heroButtonOne {
+    display: flex;
+    max-width: 200px;
+    width: 100vw;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #FF371A;
+}
+
+.heroButtonTwo {
+    display: flex;
+    max-width: 200px;
+    width: 100vw;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    border: 1px solid #2F2C33;
+}
+
+.heroButtonTxt {
+    color: #FFF;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.blockChainLogoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.createFullWrapper {
+    display: flex;
+    max-width: 1040px;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.createHeading {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    align-self: stretch;
+}
+
+.createCardsWrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.cardLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.cardRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    height: 100vh;
+}
+
+.topCardL {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #191919;
+}
+
+.cardTxt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.cardTxtHeading {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px
+}
+
+.cardTxtSupporting {
+    color: #797979;
+    font-weight: 400;
+    line-height: 18px;
+    align-self: stretch;
+}
+
+.bottomCardL {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    background: #191919;
+}
+
+.topCardR {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #191919;
+}
+
+.bottomCardR {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #191919;
+}
