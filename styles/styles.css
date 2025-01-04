@@ -168,81 +168,137 @@ h1 {
     align-self: stretch;
 }
 
-.cardLeft {
+
+/* create cards to continue */
+
+.WallOfLoveWrapper {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
+max-width: 1040px;
+width: 100vw;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 32px;
 }
 
-.cardRight {
+.loveHeadingWrapper {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    align-self: stretch;
-    height: 100vh;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+align-self: stretch;
 }
 
-.topCardL {
-    display: flex;
-    padding: 16px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    align-self: stretch;
-    border-radius: 12px;
-    background: #191919;
-}
-
-.cardTxt {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-    align-self: stretch;
-}
-
-.cardTxtHeading {
+.loveHeading {
     color: #FFF;
-    font-size: 20px;
+    text-align: center;
+    font-size: 36px;
     font-weight: 600;
-    line-height: 24px
+    line-height: 44px;
+    align-self: stretch;
 }
 
-.cardTxtSupporting {
-    color: #797979;
+.lovesupporting {
+    color: #7A7A7A;
+    text-align: center;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 30px;
     align-self: stretch;
 }
 
-.bottomCardL {
+.loveUsersWrapper {
     display: flex;
-    padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+align-self: stretch;
+}
+
+.usersWrapper {
+    display: flex;
     align-items: center;
     gap: 24px;
     align-self: stretch;
-    background: #191919;
 }
 
-.topCardR {
+.userCardWrapper {
     display: flex;
-    padding: 16px;
-    align-items: center;
-    gap: 24px;
-    align-self: stretch;
-    border-radius: 12px;
-    background: #191919;
+width: 508px;
+min-width: 360px;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+border-radius: 12px;
+background: #191919;
 }
 
-.bottomCardR {
+.starsAndQuote {
     display: flex;
-    padding: 16px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
+    gap:  16px;
     align-self: stretch;
-    border-radius: 12px;
-    background: #191919;
 }
+
+.avatarAndTxt {
+    display: flex;
+    align-items: center;
+    gap:  12px;
+    align-self: stretch;
+}
+
+.stars {
+    display: flex;
+align-items: center;
+gap: 4px ;
+}
+
+.quote {
+    color: #FFF;
+font-weight: 500;
+line-height: 24px;
+align-self: stretch;
+}
+
+.usertxtAndSupporting {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+flex: 1 0 0;
+}
+
+.txtAndVerify {
+    display: flex;
+justify-content: center;
+align-items: center;
+gap:  4px;
+}
+
+.userName {
+    color: #535862;
+font-weight: 500;
+line-height: 24px;
+}
+
+.atUserName {
+    color: #535862;
+font-weight: 400;
+line-height: 24px;
+text-underline-position: from-font;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
