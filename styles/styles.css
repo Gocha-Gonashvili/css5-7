@@ -226,10 +226,11 @@ align-self: stretch;
     display: flex;
 width: 508px;
 min-width: 360px;
+height: 252px;
 padding: 32px;
 flex-direction: column;
 align-items: flex-start;
-gap: 32px;
+justify-content: space-between;
 border-radius: 12px;
 background: #191919;
 }
