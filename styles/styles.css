@@ -291,15 +291,224 @@ text-underline-position: from-font;
 }
 
 
+.subscribeContentWrapper {
+    display: flex;
+width: 1040px;
+padding: 64px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 32px;
+border-radius: 16px;
+background: #191919;
+}
+
+.subscribeHeadingWrapper {
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+}
+
+.subscribeHeading {
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    align-self: stretch;
+}
+
+.subscribeTxt {
+    color: #7A7A7A;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; 
+    align-self: stretch;
+}
+
+.subscribeContactWrapper {
+    display: flex;
+align-items: flex-start;
+gap:  16px;
+align-self: stretch;
+}
+
+.inputWrapper {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap:  6px;
+flex: 1 0 0;
+}
+
+.buttonWrapper {
+    display: flex;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 12px;
+background: #FF371A;
+}
+
+.buttonTxt {
+    color: #FFF;
+font-weight: 500;
+line-height: 24px;
+}
+
+.inputWrapper {
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap:  6px;
+flex: 1 0 0;
+}
 
 
+input {
+    display: flex;
+padding: 12px 14px;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+border-radius:  8px;
+border: 1px solid #7A7A7A;
+background: #0B0B0E;
+}
 
+.labelForEmail {
+    color: #7A7A7A;
+font-size: 14px;
+font-weight: 400;
+line-height:  20px;
+}
 
+.pricingFullWrapper {
+    display: flex;
+width: 1040px;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+}
 
+.contantWrapper {
+    display: flex;
+align-items: center;
+gap: 40px;
+align-self: stretch;
+}
 
+.contentHeading {
+    display: flex;
+width: 477px;
+flex-direction: column;
+align-items: flex-start;
+gap: 9px;
+}
 
+.contentHeadingTxt {
+    color: #FFF;
+font-size: 45px;
+font-weight: 800;
+}
 
+.contentSupporting {
+    color: #7A7A7A;
+font-size: 18px;
+font-weight: 400;
+line-height: 144.523%;
+height: 74px;
+flex: 1 0 0;
+}
 
+.pricingCardsWrapper {
+    display: flex;
+align-items: flex-start;
+gap: 24px;
+align-self: stretch;
+}
 
+.cardWrapper {
+    display: flex;
+padding: 40px;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+flex: 1 0 0;
+background: #191919;
+}
 
+.cardContentWrapper {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+flex: 1 0 0;
+}
 
+.pricesWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.subContentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    align-self: stretch;
+}
+
+.pricingWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.priceWrapper {
+    display: flex;
+    width: 125px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.popularWrapper {
+    display: flex;
+    width: 122px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.pricingHeading {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.priceDollar {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.populatiry {
+    color: #7A7A7A;
+font-size: 16px;
+font-weight: 400;
+}
+
+.line {
+    width: 304px;
+height: 1px;
+}
